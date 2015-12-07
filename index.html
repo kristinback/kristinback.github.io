@@ -9,54 +9,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
   </head>
+<!DOCTYPE html>
+<html lang = "en">
+
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+    
+    <title>Kristin Back</title>
+
+  </head>
 
   <body>
-  	<!--
-    <div class="nav">
-      <div class="container">
-        <ul class= "pull-left">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact me</a></li>
-        </ul>
-        <ul class = "pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-    </div>
-	-->
-    <div class="jumbotron">
+
+
       <div class="container">
         <h1>Kristin Back</h1>
         <p>Soon an Engineer in Media Technology</p>
         <!--<a href="#">Learn More</a>-->
+        <!--<img src="img/duckface.jpg" alt="Duckface" style="width:128px;height:228px;" rotate = "90">-->
       </div>
-    </div> 
+ 
 
     
     <div class="learn-more">
-	  <div class="container">
-		<div class = "row">
-	      <div class = "col-md-4">
-			<h3>Get to know me</h3>
-			<p>Information about my ambitions and goals in life.</p>
-			<p><a href="#">Find out more about me</a></p>
-	      </div>
-	      
-		  <div class = "col-md-4">
-			<h3>Preferences</h3>
-			<p>Information about what i've done in career and in personal life.</p>
-			<p><a href="#">Learn more about my skills</a></p>
-		  </div>
-		  
-		  <div class = "col-md-4">
-			<h3>Contact me</h3>
-			<p>How you get in contact with me</p>
-			<p><a href="#">Get to know me in real life</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+      <div class="jumbotron"> <!--Outside the container gets it to fill screen-->
+
+
+        
+    <div class="container">
+    <div class = "row">
+        <div class = "col-md-4">
+          <img class="img-circle" src="img/arms2.png" alt="Generic placeholder image" width="140" height="140">
+      <h3>Get to know me</h3>
+      <p>Information about my ambitions and goals in life.</p>
+      <p><a href="#section1" target = "_self" role = "button" class = "btn btn-secondary">Find out</a></p> <!--after the # type the id of which it will go to-->
+        </div>
+        
+      <div class = "col-md-4">
+        <img class="img-circle" src="img/book7.png" alt="Generic placeholder image" width="140" height="140">
+      <h3>Preferences</h3>
+      <p>Information about what i've done in career and in personal life.</p>
+      <p><a href="#section2" target = "_self" role = "button" class = "btn btn-secondary">Learn more</a></p>
+      </div>
+      
+      <div class = "col-md-4">
+        <img class="img-circle" src="img/ball68.png" alt="Generic placeholder image" width="140" height="140">
+      <h3>Contact me</h3>
+      <p>How you get in contact with me</p>
+      <p><a href="#section3" target = "_self" role = "button" class = "btn btn-secondary">Get to know </a></p>
+      </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div id ="section1" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Something about me here maybe</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src = "img/arms2.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id ="section2" class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Projects <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Write something here to see my projects</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src = "img/arms2.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id ="section3" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Goals in life <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">I want to be a person who</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src = "img/arms2.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+
   </body>
+</html>
 </html>
