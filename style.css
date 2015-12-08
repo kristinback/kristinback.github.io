@@ -1,7 +1,7 @@
 
   body {
       position: relative; 
-      background-color: #f5faf6;
+      background-color: #fff;
   }
 
   #section1 {padding-top:50px;height:500px;color: #fff; background-color: #eff5f2;}
@@ -33,6 +33,14 @@
   font-size: 20px;
   color: #000;
 
+}
+
+.featurette-heading {
+  color: #000;
+
+}
+.lead {
+  color: #000;
 }
 
 .learn-more {
